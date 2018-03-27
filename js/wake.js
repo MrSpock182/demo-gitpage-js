@@ -5,7 +5,7 @@ function doSomething() {
 	console.log(date);
 	console.log(hours);
 	
-	if(hours > 8) {
+	if(hours > 16) {
 		var xhr = new XMLHttpRequest();
 		xhr.open("GET", "https://impactaservice.herokuapp.com", true);
 		xhr.onreadystatechange = function() {
